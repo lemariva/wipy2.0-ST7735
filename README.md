@@ -16,6 +16,11 @@ Wiring
 | `P10`(`G17`) |   |	 `SCL`  |
 | `P11`(`G22`) |   |	 `SDA`  |
 
+These are the default connection setting, you can change them using the constructor of the `Display` class as
+```
+my_display = Display(self, uSPI=0, pinDC='P7', pinCS='P8', pinRST='P6')   
+```
+
 Use:
 ----------
 ```
@@ -29,7 +34,7 @@ my_display.drawString(10,10,'LeMaRiva', font_6x8, my_display.COLOR_RED, 2)
 
 More Info:
 -----------
-* Blog article: http://lemariva.com/blog/2017/01/wipy-2-0-weather-report
+* Blog article: http://lemariva.com/blog/2017/01/wipy-2-0-weather-report-box
 
 Credits:
 ---------------
