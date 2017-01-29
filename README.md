@@ -18,14 +18,14 @@ Wiring
 
 Use:
 ----------
-'''
+```
 from graphics import Display
 from fonts import font_6x8	# only needed for drawString or drawChar methods
 
 my_display = Display()
 my_display.clearScreen() # ClearScreen
 my_display.drawString(10,10,'LeMaRiva', font_6x8, my_display.COLOR_RED, 2)    
-'''
+```
 
 More Info:
 -----------
